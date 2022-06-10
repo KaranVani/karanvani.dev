@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap");
 @font-face {
   font-family: NeueMontreal;
   src: url(/web/www/public/fonts/webfontkit-20220608-070424/ppneuemontreal-thin-webfont.woff)
@@ -23,6 +22,11 @@
 /*
 * Setting up default values so i can use them later
 */
+
+::selection {
+  color: black; 
+  background: white;
+}
 
 :root {
   /* General Palet */
@@ -51,7 +55,7 @@ body {
   outline: 0;
   background-color: #1d1d1d;
   /* font-family: "Prompt", sans-serif; */
-  font-family: "NeueMontreal", sans-serif;
+  font-family: "NeueMontreal", Arial, Helvetica, sans-serif;
 }
 
 /* UTILITIES */
